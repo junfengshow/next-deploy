@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 interface IArticleProps {
-  list: any[];
+  list?: any[];
 }
-const Article: React.FC<IArticleProps> = ({ list }) => {
+const Article: React.FC<IArticleProps> = () => {
   return (
     <div>
       this is article
