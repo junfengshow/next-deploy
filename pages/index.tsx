@@ -9,7 +9,7 @@ const Home: React.FC<IHomeProps> = ({ userInfo }) => {
   return (
     <Layout>
       <div>
-        <Link href="/article">article</Link>
+        <Link href="/article">article 1111</Link>
       </div>
       {userInfo && userInfo.userName}
     </Layout>
